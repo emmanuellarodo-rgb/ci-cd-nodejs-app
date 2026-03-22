@@ -1,16 +1,21 @@
 # CI/CD Node.js App
 
-This project demonstrates a simple CI/CD pipeline using GitHub Actions and Docker.
+## Overview
+This project demonstrates a basic CI/CD pipeline using GitHub Actions and Docker.
+
+## Architecture
+- Node.js application
+- Docker containerization
+- GitHub Actions pipeline
+
+## CI/CD Flow
+1. Code pushed to GitHub
+2. GitHub Actions triggers pipeline
+3. Dependencies installed
+4. App is validated
+5. Docker image is built
 
 ## Tech Stack
 - Node.js
 - Docker
 - GitHub Actions
-
-## Features
-- Automated build on push
-- Containerized application
-
-## Run Locally
-docker build -t my-app .
-docker run -p 3000:3000 my-app
